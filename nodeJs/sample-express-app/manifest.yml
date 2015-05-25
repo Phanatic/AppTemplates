@@ -1,0 +1,4 @@
+applications:
+- name: sample-express-app
+  mem: 256M
+  instances: 1

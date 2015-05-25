@@ -1,0 +1,9 @@
+applications:
+  web:
+    name: WebApp
+    mem: 256M
+    instances: 1
+  worker:
+    name: WorkerApp
+    mem: 256M
+    instances: 1

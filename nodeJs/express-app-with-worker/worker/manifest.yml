@@ -1,0 +1,13 @@
+applications:
+- name: HelionizeWorker
+  mem: 400M
+  instances: 1
+  ignores: ["node_modules", ".git"]
+  services:
+    rabbitmq:
+      type: rabbitmq3
+  stackato:
+    ignores:
+    - .git
+    - .gitignore
+    - README.md

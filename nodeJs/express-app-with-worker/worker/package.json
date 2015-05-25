@@ -1,0 +1,8 @@
+{
+  "name": "Example-worker",
+  "version": "0.0.1",
+
+  "dependencies": {
+    "amqp": "0.1.3"
+  }
+}
